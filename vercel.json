@@ -1,7 +1,11 @@
 {
   "$schema": "https://openapi.vercel.sh/vercel.json",
-  "cleanUrls": true,
-  "redirects": [
-    { "source": "/", "destination": "/dist", "permanent": false }
+  "rewrites": [
+    { "source": "/", "destination": "/dist/index.html" },
+    { "source": "/styles.css", "destination": "/dist/styles.css" },
+    { "source": "/refinement.css", "destination": "/dist/refinement.css" },
+    { "source": "/data.js", "destination": "/dist/data.js" },
+    { "source": "/app.js", "destination": "/dist/app.js" },
+    { "source": "/assets/:path*", "destination": "/dist/assets/:path*" }
   ]
 }
