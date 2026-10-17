@@ -1,0 +1,6 @@
+.sites-local/
+node_modules/
+*.tgz
+*.tar.gz
+.DS_Store
+Thumbs.db
