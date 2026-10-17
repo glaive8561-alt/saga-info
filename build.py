@@ -10,7 +10,7 @@ COURSE = "https://www.saga121.com/regular-process/academy3/"
 reviews = json.loads((ROOT / "content/reviews.json").read_text(encoding="utf-8"))
 
 lessons = [
-    {"id": "vSvzrd2NRfI", "title": "일터의 온전함", "tag": "3분 미라클 · 오정현 목사", "desc": "짧은 말씀 영상으로 일과 신앙을 잇는 관점을 만나보세요."},
+    {"id": "vSvzrd2NRfI", "title": "일터의 온전함", "tag": "3분 미라클 · 오정현 목사", "desc": "짧은 말씀 영상으로 일과 신앙을 잇는 관점을 만나보세요"},
     {"id": "I3VEEhzTVGI", "title": "이돈주 학장 공개 특강", "tag": "크리스천 리더십", "desc": "변화하는 시대, 크리스천 리더의 사명을 함께 생각합니다."},
     {"id": "B5hw7AXF5wU", "title": "일터의 온전함", "tag": "오정현 목사 · 전체 설교", "desc": "일터에서 온전한 제자로 살아가는 삶을 더 깊이 만나보세요."},
     {"id": "H_ye5PuN6Wg", "title": "일터선교아카데미 커리큘럼", "tag": "과정 소개", "desc": "무엇을 배우고 어떻게 일터에 적용하는지, 과정의 흐름을 살펴보세요."},
